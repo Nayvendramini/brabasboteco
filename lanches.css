@@ -1,0 +1,148 @@
+/*reset*/
+* {
+  box-sizing: border-box;
+}
+header {
+  margin-top: 1px;
+    height: calc(80vh - 10px);
+    background: no-repeat center/45% url('logohd.png');
+    border: 2px solid transparent;
+    padding: 10px;
+    color: rgb(238, 160, 15);
+}
+.menu {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #130f0f;
+  font-size: 14px;
+  margin-left: 45px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.menu {
+  background-color: rgb(255, 217, 0);
+  color: rgb(10, 9, 9);
+  box-shadow: 0 5px black;
+  display: inline-block;
+}
+.menu:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 5px rgb(236, 7, 7);
+}
+.menu:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+h1 {
+  margin-top: 1px;
+  border: 15px solid transparent;
+  padding: 10px;
+  border-image-source: url("fundothai.jpeg");
+  border-image-slice: 80;
+  border-image-repeat: repeat;
+  background-color: rgb(233, 173, 6);
+}
+h2 {
+  color: red;
+  border-radius: 100px;
+}
+.titulo {
+  margin-top: 10px;
+  color: #0f0b0b;
+  margin: 10px;
+  text-align: center;
+  font-display: initial;
+  font-size: x-large;
+}
+
+body {
+  
+  height: calc(200vh - 1000px);
+    background: no-repeat center/100% url('./smashfoto.jpeg');
+    background-color: rgb(0, 0, 0);
+ 
+}
+
+.conteudo {
+  display: table;
+}
+.imagem {
+  display: table-cell;
+  float:center;
+  margin-top: 10px;
+  margin-left: 120px;
+  margin-right: auto;
+}
+.texto1 {
+  border-style: double;
+  display: table-cell;
+  float:  flex;
+  width: 1500px;
+  margin-top: 15px;
+  margin-left: 290px;
+  margin-right: 79px;
+  font-size: 30px;
+  text-align: center;
+  text-size-adjust: 20px;
+  margin-top: 1px;
+  border: 15px solid transparent;
+  padding: 10px;
+  border-image-source: url("fundothai.jpeg");
+  border-image-slice: 80;
+  border-image-repeat: repeat;
+  background-color: rgb(233, 173, 6);
+  color: #0c0a0a;
+}
+.bloco2 {
+  display: table;
+}
+
+.texto2 {
+  margin-left: 165px;
+  margin-right: 150px;
+  font-family: "Times New Roman", Times, serif;
+  color: #130f0f;
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-align: center;
+  text-size-adjust: 500px;
+  border-style: double;
+  margin-top: 50px;
+  
+}
+.salgados {
+  margin-top: 90px;
+}
+.textosal {
+  
+  border-style: double;
+  display: table-cell;
+  float:  center;
+  width: 1500px;
+  margin-top: 15px;
+  margin-left: 290px;
+  margin-right: 79px;
+  font-size: 30px;
+  text-align: center;
+  text-size-adjust: 20px;
+  margin-top: 1px;
+  border: 15px solid transparent;
+  padding: 10px;
+  border-image-source: url("foto2.avif");
+  border-image-slice: 80;
+  border-image-repeat: repeat;
+  background-color: rgb(233, 173, 6);
+  color: #0c0909;
+}
+
+.imagensal {
+  margin-left: 10px;
+  margin-top: 90px;
+  background-color: rgb(233, 173, 6);
+  color: #0c0909;
+}
